@@ -10,7 +10,10 @@
     "@midwayjs/info": "^3.16.1",
     "@midwayjs/koa": "^3.16.1",
     "@midwayjs/logger": "^3.4.0",
-    "@midwayjs/validate": "^3.16.1"
+    "@midwayjs/typeorm": "3",
+    "@midwayjs/validate": "^3.16.1",
+    "mysql2": "^3.9.7",
+    "typeorm": "^0.3.20"
   },
   "devDependencies": {
     "@midwayjs/mock": "^3.16.0",

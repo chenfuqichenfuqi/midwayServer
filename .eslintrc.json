@@ -3,5 +3,9 @@
   "ignorePatterns": ["node_modules", "dist", "test", "typings"],
   "env": {
     "mocha": true
+  },
+  "rules": {
+    "prettier/prettier": "warn"
+    
   }
 }

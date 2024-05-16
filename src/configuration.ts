@@ -7,11 +7,13 @@ import * as info from '@midwayjs/info';
 import { ReportMiddleware } from './middleware/report.middleware.js';
 import DefaultConfig from './config/config.default.js';
 import UnittestConfig from './config/config.unittest.js';
+import * as typeorm from '@midwayjs/typeorm';
 
 @Configuration({
   imports: [
     koa,
     validate,
+    typeorm,
     {
       component: info,
       enabledEnvironment: ['local'],
