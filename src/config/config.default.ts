@@ -1,4 +1,4 @@
-import { MidwayConfig } from '@midwayjs/core';
+import { MidwayConfig } from '@midwayjs/core'
 
 export default {
   // use for cookie sign key, should change to your own and keep security
@@ -25,4 +25,4 @@ export default {
       },
     },
   },
-} as MidwayConfig;
+} as MidwayConfig

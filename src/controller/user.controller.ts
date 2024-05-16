@@ -20,7 +20,7 @@ export class UserController {
 
   @Get('/get_user')
   async getUser(@Query('uid') uid) {
-    return 'user'
+    return 'user1'
     // const user = await this.userService.getUser({ uid });
     // return { success: true, message: 'OK', data: user };
   }

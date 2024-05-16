@@ -1,2 +1,2 @@
-import { Bootstrap } from '@midwayjs/bootstrap';
-await Bootstrap.run();
+import { Bootstrap } from '@midwayjs/bootstrap'
+await Bootstrap.run()

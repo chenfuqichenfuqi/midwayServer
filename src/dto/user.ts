@@ -1,14 +1,14 @@
-import { Rule, RuleType } from '@midwayjs/validate';
+import { Rule, RuleType } from '@midwayjs/validate'
 export class UserDTO {
   @Rule(RuleType.number().required())
-  id: number;
+  id: number
 
   @Rule(RuleType.string().required())
-  firstName: string;
+  firstName: string
 
   @Rule(RuleType.string().max(10))
-  lastName: string;
+  lastName: string
 
   @Rule(RuleType.number().max(60))
-  age: number;
+  age: number
 }

@@ -1,17 +1,12 @@
-import { Provide } from '@midwayjs/core';
-import { IUserOptions } from '../interface.js';
-import { User } from '../entity/User.js';
-import { Repository } from 'typeorm';
-import { InjectEntityModel } from '@midwayjs/typeorm';
+import { Provide } from '@midwayjs/core'
+import { IUserOptions } from '../interface.js'
+import { User } from '../entity/User.js'
+import { BaseServer } from './base.server.js'
 
 @Provide()
-export class UserService {
-  @InjectEntityModel(User)
-  userModel: Repository<User>;
-
+export class UserService extends BaseServer {
   async create(user: User): Promise<User> {
-    this.userModel.findOne({ where: { id: 1 } });
-    return this.userModel.save(user);
+    return this.userModel.save(user)
   }
 
   async getUser(options: IUserOptions) {
@@ -20,6 +15,6 @@ export class UserService {
       username: 'mockedName',
       phone: '12345678901',
       email: 'xxx.xxx@xxx.com',
-    };
+    }
   }
 }
