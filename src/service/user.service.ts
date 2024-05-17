@@ -1,7 +1,7 @@
 import { Provide } from '@midwayjs/core'
-import { IUserOptions } from '../interface.js'
-import { User } from '../entity/User.js'
-import { BaseServer } from './base.server.js'
+import { IUserOptions } from '../interface'
+import { User } from '../entity'
+import { BaseServer } from './'
 
 @Provide()
 export class UserService extends BaseServer {

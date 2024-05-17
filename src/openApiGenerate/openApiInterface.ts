@@ -1,4 +1,4 @@
-import { Schema } from './SchemaInterface.js'
+import { Schema } from './SchemaInterface'
 
 type openapi = '3.0.1'
 
