@@ -6,6 +6,11 @@ export default {
   koa: {
     port: 7001,
   },
+  view: {
+    mapping: {
+      '.ejs': 'ejs',
+    },
+  },
   typeorm: {
     dataSource: {
       default: {

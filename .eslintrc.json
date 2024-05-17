@@ -1,8 +1,8 @@
 {
   "extends": "./node_modules/mwts/",
-  "ignorePatterns": ["node_modules", "dist", "test", "typings"],
+  "ignorePatterns": ["node_modules", "dist", "test", "jest.config.js", "typings"],
   "env": {
-    "mocha": true
+    "jest": true
   },
   "rules": {
     "prettier/prettier": "warn"

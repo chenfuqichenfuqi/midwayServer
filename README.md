@@ -1,10 +1,29 @@
-# midwayServer
+# my_midway_project
 
-业务开发工具集成
+## QuickStart
 
-通用业务代码封装
+<!-- add docs here for user -->
+
+see [midway docs][midway] for more detail.
+
+### Development
+
+```bash
+$ npm i
+$ npm run dev
+$ open http://localhost:7001/
+```
+
+### Deploy
+
+```bash
+$ npm start
+```
+
+### npm scripts
+
+- Use `npm run lint` to check code style.
+- Use `npm test` to run unit test.
 
 
-TODO
-
-接口input output 类型自动生成ts文件
+[midway]: https://midwayjs.org
